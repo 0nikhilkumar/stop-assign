@@ -1,0 +1,109 @@
+.form {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(1, 247, 165, 0.074);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-form {
+  width: 30rem;
+  height: 90%;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+}
+
+.upper-heading-div{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    border-bottom: 1px solid #DADCE0;
+    color: #1C4980;
+    font-weight: bold;
+}
+
+.upper-heading-div p{
+    font-size: 20px;
+    font-family: Inter;
+}
+
+.upper-heading-div svg{
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.second-div{
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.first-input{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.first-input p{
+    font-size: 16px;
+    color: #1C4980;
+}
+
+.input{
+    width: 100%;
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #DADCE0;
+    background-color: #fdfdfd;
+}
+
+.input::placeholder{
+    color: #1C4980;
+}
+
+#input{
+    width: 100%;
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #DADCE0;
+    background-color: #fdfdfd;
+    color: #1C4980;
+}
+
+.options{
+    color: #1C4980;
+}
+
+.last-div-one{
+    background-color: white;
+    height: 10%;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.btn{
+    text-align: center;
+    color: white;
+    width: 80%;
+    background-color: #0073E6;
+    padding: 6px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
